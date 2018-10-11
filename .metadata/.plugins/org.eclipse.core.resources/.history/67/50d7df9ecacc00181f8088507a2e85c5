@@ -1,0 +1,9 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+public class Ejercicio_java7_tabla_multiplicar {
+	public static void main(String[] args) {
+	private static BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
+
+	
+}

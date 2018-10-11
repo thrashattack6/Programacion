@@ -1,0 +1,12 @@
+import javax.swing.*;
+public class Ejercicios_java5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String radio=JOptionPane.showInputDialog("Introduce el radio, por favor");
+		
+		double radio_conv = Double.parseDouble(radio);
+		
+		
+	}
+}

@@ -1,0 +1,19 @@
+
+public class Variables {
+
+	public static void main(String[] args) {
+		
+		byte edad=35; // Declaración e iniciación de variable en una misma línea 
+		
+		/*
+		 * Imprime en la consola el valor de la variable edad
+		 * Luego se ha modificado esa variable
+		 * Y se ha vuelto a sacar en consola
+		 */
+		System.out.println(edad);
+		edad=75;
+		
+		System.out.println(edad);
+	}
+
+}

@@ -1,0 +1,22 @@
+
+public class Manipula_cadenas3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String alumno1, alumno2;
+		
+		alumno1="David";
+		
+		alumno2="sd";
+		
+		//boolean resultado = alumno1.equals(alumno2);
+		if(alumno1.equals(alumno2)) {
+		//if (resultado==true) {
+			System.out.println("Coincide");}
+		else {
+			System.out.println("No coincide");
+		}
+		//System.out.println(alumno1.equalsIgnoreCase(alumno2));
+	}
+}

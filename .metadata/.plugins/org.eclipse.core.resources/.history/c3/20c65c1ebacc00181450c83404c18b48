@@ -1,0 +1,23 @@
+import java.util.*;
+public class Ejercicios_java6 {
+		
+	public static void main(String[] args) {
+		
+		Scanner entrada_peso=new Scanner(System.in);
+		
+		System.out.println("Introduce tu peso en kg, por favor");
+		
+		double peso=entrada_peso.nextDouble();
+		
+		Scanner entrada_altura=new Scanner(System.in);
+		
+		System.out.println("Introduce tu altura en cm, por favor");
+		
+		double altura=entrada_altura.nextDouble();
+		
+		double imc=peso/(altura*altura);
+		
+		System.out.println("Tu IMC es " + Math.rint(imc*100)/100);
+		
+	}
+}

@@ -1,0 +1,38 @@
+package ejemplosbucles;
+
+import java.io.;
+
+public class dd {
+
+
+    public static void main(String[] args) throws IOException {
+
+        InputStreamReader isr;
+        BufferedReader br;
+        int valor;
+        int fila, columna;
+
+        isr=new InputStreamReader(System.in);
+        br=new BufferedReader(isr);
+
+        System.out.println("Introduce el tamaño de la piramide");
+        valor=Integer.parseInt(br.readLine());
+
+        for(fila=1;fila<valor;fila++)
+        {
+            //Espacios en blanco
+            for(columna=1;columna<valor-fila;columna++)
+            {
+                System.out.print(" ");
+            }
+            //El simbolo elegido
+            for(columna=1;columna<=2fila-1;columna++)
+            {
+                System.out.print("*");
+            }
+            //Salto a la siguiente fila
+            System.out.println("");
+        }
+    }
+
+}

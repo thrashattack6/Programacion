@@ -1,0 +1,10 @@
+
+public class Manipula_cadenas {
+
+	public static void main(String[] args) {
+		
+		String nombre="Andrés";
+		
+		System.out.println("Mi nombre es " + nombre);
+	}
+}

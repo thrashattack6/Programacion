@@ -1,0 +1,23 @@
+import javax.swing.*;
+public class Video14_Acceso_aplicacion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String clave="Andres"; //Se declara el nombre
+		
+		String pass=""; //Se declara pass pero sin valor
+		
+		while (clave.equals(pass)==false) { //Compara clave y pass y si no son correctas entra
+			
+			pass=JOptionPane.showInputDialog("Introduce la contraseña, por favor"); //Se le da valor a pass
+			
+			if (clave.equals(pass)==false) { //Vuelve a comparar y si son falsas muestra mensaje de error
+				
+				System.out.println("Contraseña incorrecta");
+			}
+		}
+		
+		System.out.println("Contraseña correcta. Acceso permitido");
+	}
+}

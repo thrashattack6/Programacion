@@ -1,0 +1,10 @@
+
+public class Ejercicios_java {
+	public static void main(String[] args) {
+		
+		string nombre="Andrés";
+		
+		System.out.println("Bienvenido " + nombre);
+		
+	}
+}

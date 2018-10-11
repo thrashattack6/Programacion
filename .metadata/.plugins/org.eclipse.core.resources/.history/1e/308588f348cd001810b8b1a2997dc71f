@@ -1,0 +1,19 @@
+import javax.swing.*;
+public class Ejercicios_java8_diasemana {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner entrada=JOptionPane.showInputDialog("Elige");
+		
+		System.out.println("Elige una opción: \n1: Cuadrado \n2: Rectángulo \n3: Triángulo \n4: Círculo");
+		
+		int dia=entrada.nextInt();
+		
+		
+		switch (dia) { // Valora el número que se pone y entra en el case correspondiente
+		
+		
+		}
+		}
+}

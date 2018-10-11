@@ -1,0 +1,7 @@
+import javax.swing.*;
+public class Ejercicio_java7_tabla_multiplicar {
+	String numero=JOptionPane.showInputDialog("Introduce el numero, por favor");
+	
+	double numero1= Double.parseDouble(numero);
+	
+}

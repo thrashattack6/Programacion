@@ -1,0 +1,18 @@
+import javax.swing.*;
+public class Ejercicios_java8_diasemana {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String entrada=JOptionPane.showInputDialog("Introduce un día de la semana");
+		
+		switch (entrada) { // Valora el número que se pone y entra en el case correspondiente
+		
+		case Lunes:
+			
+			System.out.println("El " + entrada + " es laborable.");
+			
+			break;
+		}
+	}
+}
